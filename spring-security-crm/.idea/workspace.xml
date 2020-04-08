@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5eb3d3eb-ce3c-452b-9efc-12d76816993d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/persistence-mysql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/security-persistence-mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/security-persistence-mysql.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,12 +223,24 @@
       <workItem from="1586085954642" duration="5568000" />
       <workItem from="1586189508717" duration="3641000" />
       <workItem from="1586342436724" duration="2081000" />
-      <workItem from="1586347404775" duration="376000" />
+      <workItem from="1586347404775" duration="618000" />
     </task>
+    <task id="LOCAL-00001" summary="Changing databases url's">
+      <created>1586347859014</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586347859014</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changing databases url's" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing databases url's" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Assign_Data_Sources" timestamp="1586086575173">
@@ -274,10 +283,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1586088270886" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1586347839836">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1586347858053">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586347839836" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586347858053" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1586001060208">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
