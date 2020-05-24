@@ -6,9 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5eb3d3eb-ce3c-452b-9efc-12d76816993d" name="Default Changelist" comment="">
+    <list default="true" id="5eb3d3eb-ce3c-452b-9efc-12d76816993d" name="Default Changelist" comment="Adding heroku plugin to pom.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/persistence-mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/persistence-mysql.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/security-persistence-mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/security-persistence-mysql.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-security/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-security/WEB-INF/classes/META-INF/spring-security-registration.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-security/WEB-INF/classes/persistence-mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security/WEB-INF/classes/persistence-mysql.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/spring-security/WEB-INF/classes/security-persistence-mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/spring-security/WEB-INF/classes/security-persistence-mysql.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +231,9 @@
       <workItem from="1586189508717" duration="3641000" />
       <workItem from="1586342436724" duration="2081000" />
       <workItem from="1586347404775" duration="2134000" />
-      <workItem from="1586368915733" duration="83000" />
+      <workItem from="1586368915733" duration="1020000" />
+      <workItem from="1587033372717" duration="1961000" />
+      <workItem from="1587906212005" duration="1349000" />
     </task>
     <task id="LOCAL-00001" summary="Changing databases url's">
       <created>1586347859014</created>
@@ -234,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586347859014</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding heroku plugin to pom.xml">
+      <created>1586369087120</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586369087120</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +257,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changing databases url's" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing databases url's" />
+    <MESSAGE value="Adding heroku plugin to pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding heroku plugin to pom.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Assign_Data_Sources" timestamp="1586086575173">
@@ -257,10 +273,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1586088602088" />
-    <state x="195" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586349218874">
+    <state x="195" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586369404868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="195" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586349218874" />
+    <state x="195" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586369404868" />
     <state x="453" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585929423008">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -377,22 +393,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="259" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1586088455101" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1586349230234">
+    <state x="163" y="0" key="SettingsEditor" timestamp="1586369398775">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586349230234" />
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1586368930066">
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586369398775" />
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1587909092302">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586368930066" />
-    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586369045203">
+    <state x="378" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587909092302" />
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586369538767">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1586369045203" />
+    <state x="492" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1586369538767" />
     <state x="413" y="119" key="extract.method.dialog" timestamp="1586088595371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1586088595371" />
+    <state x="65" y="65" key="new project wizard" timestamp="1587910169397">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="65" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1587910169397" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1586344097667">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
